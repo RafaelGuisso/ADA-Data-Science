@@ -20,7 +20,6 @@ def distance(point1, point2):
         c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
         d = R * c
-        print("Distância: {:.4f} km".format(d))
         return d
     except Exception as e:
         print(f"Ocorreu um erro ao calcular a distância: {e}")
